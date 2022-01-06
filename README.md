@@ -1,7 +1,7 @@
-project_name
+WiDS Datathon 2022
 ==============================
 
-A short description of the project.
+Repositorio para la competencia Women in Data Science (WiDS) 2022 https://www.kaggle.com/c/widsdatathon2022/overview/description
 
 Project Organization
 ------------
