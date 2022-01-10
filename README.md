@@ -3,6 +3,8 @@ WiDS Datathon 2022
 
 Repositorio para la competencia Women in Data Science (WiDS) 2022 https://www.kaggle.com/c/widsdatathon2022/overview/description
 
+Seguimiento de Modelos https://docs.google.com/spreadsheets/d/14KdfXp5V8n0fMZVpESDIf3DokJbbEwGSJ93EKtUtRMs/edit#gid=0
+
 Project Organization
 ------------
 
