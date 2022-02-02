@@ -21,5 +21,6 @@ dependencies:
   - jupyter
   - ipython
   - notebook
+  - catboost
   - pip:
     - rich
