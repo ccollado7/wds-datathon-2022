@@ -1,0 +1,25 @@
+name: wds-datathon-2022
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9.6
+  - matplotlib
+  - pandas
+  - numpy
+  - scikit-learn
+  - jupyterlab
+  - seaborn
+  - scipy
+  - tqdm
+  - jupyterlab_widgets
+  - ipywidgets
+  - nodejs
+  - networkx=2.6.2
+  - plotly
+  - pip
+  - jupyter
+  - ipython
+  - notebook
+  - pip:
+    - rich
