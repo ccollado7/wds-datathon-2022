@@ -1,9 +1,74 @@
 WiDS Datathon 2022
 ==============================
 
-Repositorio para la competencia Women in Data Science (WiDS) 2022 https://www.kaggle.com/c/widsdatathon2022/overview/description
+Repository for the competence Women in Data Science (WiDS) 2022 https://www.kaggle.com/c/widsdatathon2022/overview/description
 
-Seguimiento de Modelos https://docs.google.com/spreadsheets/d/14KdfXp5V8n0fMZVpESDIf3DokJbbEwGSJ93EKtUtRMs/edit#gid=0
+Model Tacking https://docs.google.com/spreadsheets/d/14KdfXp5V8n0fMZVpESDIf3DokJbbEwGSJ93EKtUtRMs/edit#gid=0
+
+## Pre-Requirements
+
+* [git](https://git-scm.com/downloads)
+* [anaconda](https://www.anaconda.com/products/individual) / [minconda](https://docs.conda.io/en/latest/miniconda.html)
+
+### Steps
+
+**Step 1**: Download the repository.
+
+```bash
+$ git clone https://github.com/ccollado7/wds-datathon-2022.git
+$ cd wds-datathon-2022
+```
+
+**Step 2**: Create environment dependencies for the project (Stopped in the project directory).
+
+```bash
+$ conda env create -f environment.yml
+```
+
+**Step 3**: Activate the environment where the project dependencies are installed.
+
+```bash
+$ conda activate wds-datathon-2022
+```
+
+**Paso 4**: On the project directory we raise jupyter lab or jupyter notebook
+
+```bash
+$ jupyter lab
+
+Jupyter Notebook 6.1.4 is running at:
+http://localhost:8888/?token=45efe99607fa6......
+```
+
+**Step 5**: Go to http://localhost:8888.... as indicated in the console.
+
+## Add a new dependency
+
+**Step 1**: Add the new dependency to ´environment.yml´
+
+Conda has its own package repositories but in case of any problems you can always use the pip packages.
+
+```yaml
+...
+dependencies:
+  - CONDA_PACKAGE
+  - CONDA_PACKAGE
+  - pip:
+    - PIP_PACKAGE
+    - PIP_PACKAGE
+...
+```
+
+**Step 2**: Once we add the name of the new package in ´environment.yml´ it remains to install it. For this we must **update** our environment with the changes we made in ´environment.yml´ as follows:
+
+```bash
+$ conda env update -f environment.yml
+```
+**Step 3**: Finally, if we had **jupyter lab** open, we must restart the kernel where our notebook is running in order to load the new library.
+
+![image](https://user-images.githubusercontent.com/962480/145253730-365cb56b-ae26-41b0-a38d-41d505c9ea74.png)
+
+
 
 Project Organization
 ------------
