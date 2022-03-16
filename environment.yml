@@ -16,7 +16,6 @@ dependencies:
   - ipywidgets
   - nodejs
   - networkx=2.6.2
-  - plotly
   - pip
   - jupyter
   - ipython
